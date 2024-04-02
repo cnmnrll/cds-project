@@ -10,7 +10,7 @@
   }
 
   p {
-    @apply tracking-wider text-zinc-700 text-sm;
+    @apply tracking-widest text-zinc-700 text-sm;
   }
 }
 
