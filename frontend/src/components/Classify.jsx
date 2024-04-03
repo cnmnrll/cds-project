@@ -19,14 +19,6 @@ export default function Classify(props) {
 
   const handleUpload = async (file) => {
     setIsLoading(true);
-    var reader = new FileReader();
-    reader.onload = function (e) {
-      setUploadedPhoto({
-        id: 1,
-        src: e.target.result,
-      });
-    };
-    reader.readAsDataURL(file);
 
     try {
       let formData = new FormData();
@@ -37,8 +29,19 @@ export default function Classify(props) {
         },
       });
       setPrediction(response.data.prediction);
+
+      // display uploaded image
+      let reader = new FileReader();
+      reader.onload = function (e) {
+        setUploadedPhoto({
+          id: 1,
+          src: e.target.result,
+        });
+      };
+      reader.readAsDataURL(file);
     } catch (error) {
       console.error("Error classifying image:", error);
+      alert(`Error classifying image: ${error}`);
     }
 
     setTimeout(() => {
