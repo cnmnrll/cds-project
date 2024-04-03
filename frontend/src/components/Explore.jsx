@@ -3,15 +3,15 @@ import { PropTypes } from "prop-types";
 import Arrow2 from "../assets/svgs/Arrow2";
 
 export default function Explore(props) {
-  const { selectedWaste, onBack } = props;
+  const { selectedWaste, isExplore, onBack } = props;
 
   return (
     <motion.div
       className="z-20 absolute top-0 left-0 w-full h-full px-24 overflow-y-scroll pb-20"
       initial={{ opacity: 0 }}
       animate={{
-        opacity: selectedWaste ? 1 : 0,
-        zIndex: selectedWaste ? 30 : 20,
+        opacity: isExplore ? 1 : 0,
+        zIndex: isExplore ? 30 : 20,
       }}
     >
       <div className="w-full flex flex-col justify-center items-start pt-56 space-y-9">
@@ -47,5 +47,6 @@ export default function Explore(props) {
 
 Explore.propTypes = {
   selectedWaste: PropTypes.any,
+  isExplore: PropTypes.any,
   onBack: PropTypes.any,
 };

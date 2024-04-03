@@ -7,11 +7,13 @@ import bg from "../assets/images/bg.png";
 
 export default function HomePage() {
   const [isClassify, setIsClassify] = useState(false);
+  const [isExplore, setIsExplore] = useState(false);
   const [selectedWaste, setSelectedWaste] = useState(null);
 
   useEffect(() => {
     if (selectedWaste) {
       setIsClassify(false);
+      setIsExplore(true);
     }
   }, [selectedWaste]);
 
@@ -23,9 +25,9 @@ export default function HomePage() {
           layout
           className="z-10 absolute top-0 w-full h-full"
           animate={{
-            top: selectedWaste ? 144 : 0,
-            scale: selectedWaste ? 1.9 : 1,
-            left: selectedWaste || isClassify ? "25%" : 0,
+            top: isExplore ? 144 : 0,
+            scale: isExplore ? 1.9 : 1,
+            left: isExplore || isClassify ? "25%" : 0,
           }}
           transition={{
             type: "spring",
@@ -38,8 +40,14 @@ export default function HomePage() {
       </div>
 
       <Explore
+        isExplore={isExplore}
         selectedWaste={selectedWaste}
-        onBack={() => setSelectedWaste(null)}
+        onBack={() => {
+          setIsExplore(false);
+          setTimeout(async () => {
+            setSelectedWaste(null);
+          }, 300);
+        }}
       />
 
       <Classify
