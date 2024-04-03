@@ -1,9 +1,9 @@
 import axios from "axios";
 import { motion } from "framer-motion";
 import { PropTypes } from "prop-types";
+import { wastes } from "../static/enums";
 import { useRef, useState } from "react";
 import PictureStack from "../assets/svgs/PictureStack";
-import glass from "../assets/images/glass.png";
 import Loader from "../assets/svgs/Loader";
 import Arrow from "../assets/svgs/Arrow";
 import Cross from "../assets/svgs/Cross";
@@ -124,13 +124,7 @@ export default function Classify(props) {
                 </div>
                 <button
                   className="pressable flex flex-row justify-center items-center space-x-3"
-                  onClick={() =>
-                    onSelectWaste &&
-                    onSelectWaste({
-                      display: "Glass Waste",
-                      img: glass,
-                    })
-                  }
+                  onClick={() => onSelectWaste && onSelectWaste(wastes[0])}
                 >
                   <p className="text-zinc-600">Learn more</p>
                   <Arrow className="w-[6px] h-auto text-zinc-600" />

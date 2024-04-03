@@ -1,11 +1,6 @@
 import { motion } from "framer-motion";
 import { PropTypes } from "prop-types";
-import cardboard from "../assets/images/cardboard.png";
-import plastic from "../assets/images/plastic.png";
-import metal from "../assets/images/metal.png";
-import trash from "../assets/images/trash.png";
-import paper from "../assets/images/paper.png";
-import glass from "../assets/images/glass.png";
+import { wastes } from "../static/enums";
 import Arrow from "../assets/svgs/Arrow";
 
 export default function Landing(props) {
@@ -47,66 +42,32 @@ export default function Landing(props) {
       <div></div>
       <div></div>
       <div className="w-full h-full flex flex-col items-end space-y-10 py-28 overflow-y-scroll no-scrollbar">
-        <Waste
-          title="Glass"
-          image={glass}
-          onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
-        />
-        <Waste
-          title="Paper"
-          image={paper}
-          onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
-        />
-        <Waste
-          title="Cardboard"
-          image={cardboard}
-          onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
-        />
-        <Waste
-          title="Plastic"
-          image={plastic}
-          onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
-        />
-        <Waste
-          title="Metal"
-          image={metal}
-          onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
-        />
-        <Waste
-          title="Trash"
-          image={trash}
-          onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
-        />
+        {wastes.map((waste, index) => (
+          <Waste
+            key={index}
+            waste={waste}
+            onClick={(waste) => onSelectWaste && onSelectWaste(waste)}
+          />
+        ))}
       </div>
     </motion.div>
   );
 }
 
 function Waste(props) {
-  const { title, image, onClick } = props;
+  const { waste, onClick } = props;
   return (
     <button
       className="pressable w-full flex flex-row justify-end items-center"
-      onClick={() =>
-        onClick &&
-        onClick({
-          display: title === "Trash" ? title : `${title} waste`,
-          img: image,
-        })
-      }
+      onClick={() => onClick && onClick(waste)}
     >
       <div className="flex flex-col justify-normal items-end -space-y-2">
         <p className="z-10 text-white text-right text-lg font-semibold -mr-7">
-          {title}
+          {waste.title}
         </p>
-        {title !== "Trash" && (
-          <p className="z-10 text-white text-right text-lg font-semibold -mr-7">
-            Waste
-          </p>
-        )}
       </div>
       <div className="w-2/3 relative">
-        <img src={image} alt="bg" className="w-full h-auto rounded-lg" />
+        <img src={waste.image} alt="bg" className="w-full h-auto rounded-lg" />
         <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-black/30 to-transparent"></div>
       </div>
     </button>
@@ -121,7 +82,6 @@ Landing.propTypes = {
 };
 
 Waste.propTypes = {
-  title: PropTypes.any,
-  image: PropTypes.any,
+  waste: PropTypes.any,
   onClick: PropTypes.any,
 };
