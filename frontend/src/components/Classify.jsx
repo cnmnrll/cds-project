@@ -59,7 +59,7 @@ export default function Classify(props) {
 
   return (
     <motion.div
-      className="z-20 absolute top-0 left-0 w-full h-full grid grid-cols-2 px-24"
+      className="z-20 absolute top-0 left-0 w-full h-full grid grid-cols-2 px-24 overflow-y-scroll"
       initial={{ opacity: 0 }}
       animate={{ opacity: isClassify ? 1 : 0, zIndex: isClassify ? 30 : 20 }}
     >
