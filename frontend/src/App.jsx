@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import WastePage from "./pages/WastePage";
 import HomePage from "./pages/HomePage";
 
 function App() {
@@ -12,10 +11,6 @@ function App() {
     {
       path: "/",
       element: <HomePage />,
-    },
-    {
-      path: "/explore-waste/:waste",
-      element: <WastePage />,
     },
   ]);
 
