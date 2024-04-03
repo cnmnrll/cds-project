@@ -47,6 +47,13 @@ export default function Classify(props) {
     if (uploadRef.current) uploadRef.current.value = "";
   };
 
+  const getPredictedWasteIndex = (prediction) => {
+    const idx = wastes.findIndex(
+      (waste) => waste.title.toLowerCase() === prediction.toLowerCase()
+    );
+    return idx;
+  };
+
   return (
     <motion.div
       className="z-20 absolute top-0 left-0 w-full h-full grid grid-cols-2 px-24"
@@ -119,12 +126,15 @@ export default function Classify(props) {
                 <div className="flex flex-row justify-center items-center space-x-3">
                   <p>
                     {`This picture is classified as `}
-                    <span className="font-semibold">{"prediction"}</span>
+                    <span className="font-semibold">{prediction}</span>
                   </p>
                 </div>
                 <button
                   className="pressable flex flex-row justify-center items-center space-x-3"
-                  onClick={() => onSelectWaste && onSelectWaste(wastes[0])}
+                  onClick={() =>
+                    onSelectWaste &&
+                    onSelectWaste(wastes[getPredictedWasteIndex(prediction)])
+                  }
                 >
                   <p className="text-zinc-600">Learn more</p>
                   <Arrow className="w-[6px] h-auto text-zinc-600" />

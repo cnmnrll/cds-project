@@ -14,7 +14,7 @@ export default function Explore(props) {
         zIndex: isExplore ? 30 : 20,
       }}
     >
-      <div className="w-full flex flex-col justify-center items-start pt-56 space-y-9">
+      <div className="w-full flex flex-col justify-center items-start pt-64 space-y-9">
         <button className="pressable pr-5" onClick={() => onBack && onBack()}>
           <Arrow2 className="w-10 h-auto text-white" />
         </button>
