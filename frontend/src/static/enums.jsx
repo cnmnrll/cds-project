@@ -21,37 +21,39 @@ export const wastes = [
         efforts worldwide.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
+        Glass waste encompasses various glass products, including bottles, jars, 
+        containers, and packaging materials, which are commonly used in households, 
+        businesses, and the food and beverage industry. Unlike many other materials, 
+        glass can be recycled indefinitely without losing quality or purity. By 
+        recycling glass, communities can reduce the demand for virgin materials, 
+        conserve natural resources like sand and limestone, and minimize energy 
+        consumption and greenhouse gas emissions associated with glass production. 
+        Additionally, incorporating recycled glass into manufacturing processes 
+        helps to close the loop on the production cycle, promoting a more sustainable 
+        and circular economy.
       </>
     ),
     recycle: (
       <>
-        Ullamco qui velit deserunt non sit culpa. Quis ut mollit qui incididunt
-        aliqua non sit. Sint ullamco nisi consequat excepteur non nisi magna ea
-        tempor elit qui proident magna velit. Laborum cupidatat eu voluptate
-        aliquip eu nulla ea incididunt voluptate veniam. Amet eu adipisicing
-        proident labore officia est nisi magna qui fugiat deserunt eiusmod eu
-        labore.
+        The process of recycling glass begins with collection, where discarded 
+        glass items are gathered from households, businesses, and recycling 
+        centers. It's essential to sort glass items by color to ensure that 
+        they can be properly recycled, as different colors of glass require 
+        separate recycling processes.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
-        <br />
-        <br />
-        Culpa in nostrud enim culpa amet eu velit nulla enim occaecat aliquip.
-        Ea mollit nisi pariatur sit irure amet nisi aliqua. Qui duis nostrud
-        culpa ea officia sunt amet Lorem ex irure elit aliqua.
+        Once collected, the glass is transported to recycling facilities, where 
+        it undergoes sorting and cleaning. At these facilities, the glass is 
+        sorted by color and type, with clear, green, and brown glass being the 
+        most common categories. After sorting, the glass is cleaned to remove 
+        any contaminants such as labels, caps, and residual liquids. The cleaned 
+        glass is then crushed into small pieces called cullet, which are melted 
+        in furnaces at high temperatures. The molten glass is then molded into 
+        new glass products, such as bottles, jars, fiberglass, and construction 
+        materials. By investing in glass recycling infrastructure and promoting 
+        the use of recycled glass products, communities can reduce their 
+        environmental footprint, conserve natural resources, and support a more 
+        sustainable future.
       </>
     ),
   },
@@ -70,37 +72,42 @@ export const wastes = [
         reduce their environmental footprint and support a healthier planet.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
+        Paper waste encompasses various forms of paper products, including 
+        newspapers, magazines, cardboard, office paper, and packaging materials. 
+        These materials often end up in landfills when not disposed of properly, 
+        contributing to environmental degradation and resource depletion. However, 
+        paper waste also presents an opportunity for resource recovery and 
+        conservation through recycling. The recycling process involves collecting, 
+        sorting, and processing discarded paper materials to produce new paper 
+        products. This closed-loop system helps to reduce the demand for virgin 
+        materials, conserve natural resources like trees and water, and minimize 
+        the energy and emissions associated with paper production. Additionally, 
+        recycled paper products often require less energy and water to manufacture 
+        compared to their counterparts made from virgin materials, further 
+        contributing to environmental sustainability.
       </>
     ),
     recycle: (
       <>
-        Ullamco qui velit deserunt non sit culpa. Quis ut mollit qui incididunt
-        aliqua non sit. Sint ullamco nisi consequat excepteur non nisi magna ea
-        tempor elit qui proident magna velit. Laborum cupidatat eu voluptate
-        aliquip eu nulla ea incididunt voluptate veniam. Amet eu adipisicing
-        proident labore officia est nisi magna qui fugiat deserunt eiusmod eu
-        labore.
+        Recycling paper is a crucial step towards mitigating the environmental 
+        impact of paper waste and promoting sustainable resource management. The 
+        process of recycling paper begins with collection, where discarded paper 
+        materials are gathered from households, businesses, and recycling centers. 
+        It's important to ensure that collected paper is free from contaminants 
+        such as food residue, plastics, and metals, as these can hinder the 
+        recycling process.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
-        <br />
-        <br />
-        Culpa in nostrud enim culpa amet eu velit nulla enim occaecat aliquip.
-        Ea mollit nisi pariatur sit irure amet nisi aliqua. Qui duis nostrud
-        culpa ea officia sunt amet Lorem ex irure elit aliqua.
+        Once collected, the paper is transported to recycling facilities, where it 
+        undergoes sorting and processing. At these facilities, the paper is sorted 
+        based on type and grade, with different types of paper requiring different 
+        recycling processes. The sorted paper is then cleaned, de-inked, and 
+        shredded into small fibers. These fibers are mixed with water to create a 
+        pulp, which is then refined and pressed into sheets to form new paper 
+        products. By investing in paper recycling infrastructure and promoting the 
+        use of recycled paper products, communities can reduce their reliance on 
+        virgin materials, conserve natural resources, and minimize the environmental 
+        impact of paper production and disposal.
       </>
     ),
   },
@@ -119,37 +126,30 @@ export const wastes = [
         promote a more sustainable future.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
+        Cardboard is composed of multiple layers of paperboard, typically 
+        sandwiched between two outer layers of kraft paper. When improperly 
+        disposed of in landfills, cardboard waste takes up valuable space and 
+        contributes to the generation of greenhouse gases, such as methane, as it 
+        decomposes anaerobically.
       </>
     ),
     recycle: (
       <>
-        Ullamco qui velit deserunt non sit culpa. Quis ut mollit qui incididunt
-        aliqua non sit. Sint ullamco nisi consequat excepteur non nisi magna ea
-        tempor elit qui proident magna velit. Laborum cupidatat eu voluptate
-        aliquip eu nulla ea incididunt voluptate veniam. Amet eu adipisicing
-        proident labore officia est nisi magna qui fugiat deserunt eiusmod eu
-        labore.
+        The process of recycling cardboard typically begins with collection, where 
+        discarded cardboard materials are gathered from households, businesses, and 
+        recycling centers. It's crucial to ensure that the collected cardboard is 
+        free from contaminants such as food residue, tape, and plastic packaging to 
+        facilitate the recycling process.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
-        <br />
-        <br />
-        Culpa in nostrud enim culpa amet eu velit nulla enim occaecat aliquip.
-        Ea mollit nisi pariatur sit irure amet nisi aliqua. Qui duis nostrud
-        culpa ea officia sunt amet Lorem ex irure elit aliqua.
+        Once collected, the cardboard is transported to recycling facilities, where 
+        it undergoes sorting and processing. At these facilities, the cardboard is 
+        sorted based on grade and quality to ensure that only suitable materials are 
+        processed for recycling. The cardboard is then shredded into small pieces and 
+        mixed with water to create a pulp. This pulp is then cleaned, refined, and 
+        pressed into sheets, forming new cardboard materials. These recycled cardboard 
+        sheets can be used to manufacture a wide range of products, including packaging 
+        materials, boxes, and paperboard. 
       </>
     ),
   },
@@ -168,37 +168,43 @@ export const wastes = [
         this escalating issue.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
+        To address the challenges posed by plastic waste, it is imperative to 
+        implement comprehensive strategies that encompass reduction, reuse, and 
+        recycling. Recycling plastic involves collecting discarded plastic items, 
+        sorting them by type, and processing them into raw materials that can be 
+        used to manufacture new products. Technologies such as mechanical 
+        recycling, which involves melting and reshaping plastic waste into new 
+        items, and chemical recycling, which breaks down plastic into its 
+        constituent molecules for repurposing, offer promising solutions for 
+        diverting plastic waste from landfills and reducing environmental 
+        pollution. Additionally, promoting the use of biodegradable and 
+        compostable plastics, as well as encouraging the adoption of reusable 
+        alternatives, can help to minimize the production and accumulation of 
+        plastic waste in the environment. By implementing these measures and 
+        fostering a culture of environmental responsibility, we can work towards 
+        mitigating the impacts of plastic pollution and creating a more sustainable 
+        future for generations to come.
       </>
     ),
     recycle: (
       <>
-        Ullamco qui velit deserunt non sit culpa. Quis ut mollit qui incididunt
-        aliqua non sit. Sint ullamco nisi consequat excepteur non nisi magna ea
-        tempor elit qui proident magna velit. Laborum cupidatat eu voluptate
-        aliquip eu nulla ea incididunt voluptate veniam. Amet eu adipisicing
-        proident labore officia est nisi magna qui fugiat deserunt eiusmod eu
-        labore.
+        The process of recycling plastic typically begins with collection, where 
+        discarded plastic items are gathered from households, businesses, and 
+        recycling centers. These items are then sorted based on their resin type, 
+        as different types of plastic require different recycling processes. Once 
+        sorted, the plastic is cleaned to remove any contaminants, such as food 
+        residue or labels, that could interfere with the recycling process.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
-        <br />
-        <br />
-        Culpa in nostrud enim culpa amet eu velit nulla enim occaecat aliquip.
-        Ea mollit nisi pariatur sit irure amet nisi aliqua. Qui duis nostrud
-        culpa ea officia sunt amet Lorem ex irure elit aliqua.
+        After cleaning, the plastic undergoes processing to transform it into raw 
+        materials that can be used in the manufacturing of new products. Mechanical 
+        recycling is a common method where the plastic is shredded into small 
+        pieces, melted, and then formed into pellets or flakes. These pellets can 
+        be used to produce a wide range of items, including packaging materials, 
+        textiles, and construction materials. Additionally, advancements in 
+        technology have led to the development of chemical recycling methods, which 
+        break down plastic polymers into their molecular components for reuse in 
+        various applications. 
       </>
     ),
   },
@@ -217,37 +223,32 @@ export const wastes = [
         more sustainable and circular economy.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
+        The process of recycling metal not only conserves resources but also helps 
+        to reduce the environmental footprint associated with metal extraction and 
+        production. Recycling metal requires significantly less energy compared to 
+        extracting raw materials from ore, resulting in lower carbon emissions and 
+        decreased reliance on fossil fuels. Furthermore, recycling metal reduces 
+        the need for landfill space, alleviating the burden on waste management 
+        systems and reducing the risk of environmental contamination.
       </>
     ),
     recycle: (
       <>
-        Ullamco qui velit deserunt non sit culpa. Quis ut mollit qui incididunt
-        aliqua non sit. Sint ullamco nisi consequat excepteur non nisi magna ea
-        tempor elit qui proident magna velit. Laborum cupidatat eu voluptate
-        aliquip eu nulla ea incididunt voluptate veniam. Amet eu adipisicing
-        proident labore officia est nisi magna qui fugiat deserunt eiusmod eu
-        labore.
+        Recycling metal begins with collection, where discarded metal items are 
+        gathered from households, businesses, and industries. These materials 
+        are then transported to recycling facilities, where they undergo sorting 
+        and processing. The metal is cleaned, sorted by type (such as aluminum, 
+        steel, copper, etc.), and then shredded or melted down to form raw 
+        materials. These materials are then used in various manufacturing 
+        processes to create new products, reducing the need for virgin resources 
+        and minimizing environmental impacts. 
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
-        <br />
-        <br />
-        Culpa in nostrud enim culpa amet eu velit nulla enim occaecat aliquip.
-        Ea mollit nisi pariatur sit irure amet nisi aliqua. Qui duis nostrud
-        culpa ea officia sunt amet Lorem ex irure elit aliqua.
+        Additionally, consumers can contribute to metal recycling by separating 
+        metal waste from other materials and disposing of it in designated 
+        recycling bins or centers. By participating in metal recycling efforts, 
+        individuals and communities can play a crucial role in preserving the 
+        environment and conserving valuable resources for future generations.
       </>
     ),
   },
@@ -267,37 +268,47 @@ export const wastes = [
         fostering a more sustainable future.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
+        It is essential to implement comprehensive waste management systems that 
+        prioritize waste reduction, reuse, and recycling. Composting organic 
+        waste, such as food scraps and yard trimmings, can significantly reduce 
+        the volume of trash sent to landfills while also producing nutrient-rich 
+        soil amendments for agriculture and landscaping. Incineration, when 
+        conducted with proper emissions controls, can be utilized to generate 
+        energy from non-recyclable waste materials, thereby reducing the reliance 
+        on fossil fuels and mitigating greenhouse gas emissions. Moreover, 
+        diverting waste away from landfills through recycling programs not only 
+        conserves valuable resources but also helps to minimize the environmental 
+        impacts associated with landfilling, such as soil and water pollution. By 
+        adopting these waste management strategies and promoting sustainable 
+        consumption habits, communities can work towards creating a cleaner, 
+        healthier environment for current and future generations.
       </>
     ),
     recycle: (
       <>
-        Ullamco qui velit deserunt non sit culpa. Quis ut mollit qui incididunt
-        aliqua non sit. Sint ullamco nisi consequat excepteur non nisi magna ea
-        tempor elit qui proident magna velit. Laborum cupidatat eu voluptate
-        aliquip eu nulla ea incididunt voluptate veniam. Amet eu adipisicing
-        proident labore officia est nisi magna qui fugiat deserunt eiusmod eu
-        labore.
+        Recycling general trash involves a multi-step process that begins with 
+        sorting and separating different materials to facilitate their proper 
+        disposal and recycling. Recycling facilities employ various techniques, 
+        including manual sorting, automated sorting systems, and advanced sorting 
+        technologies, to segregate recyclable materials from non-recyclable waste 
+        streams. Once separated, recyclable materials such as plastics, paper, 
+        cardboard, glass, and metals undergo further processing to prepare them 
+        for recycling.
         <br />
         <br />
-        Consectetur culpa cillum aute mollit commodo pariatur nulla aliqua
-        exercitation dolore nisi non nostrud. Aute adipisicing proident enim
-        aliqua enim et pariatur aliquip est minim exercitation non incididunt.
-        Commodo nostrud laboris sunt labore do anim consequat sunt tempor. Sit
-        tempor nulla veniam dolor amet exercitation qui amet deserunt esse
-        commodo. Consequat dolore incididunt dolor aliqua quis dolor aliqua id
-        reprehenderit in.
-        <br />
-        <br />
-        Culpa in nostrud enim culpa amet eu velit nulla enim occaecat aliquip.
-        Ea mollit nisi pariatur sit irure amet nisi aliqua. Qui duis nostrud
-        culpa ea officia sunt amet Lorem ex irure elit aliqua.
+        The next step in the recycling process involves converting recyclable 
+        materials into raw materials or products that can be used in manufacturing 
+        processes. This often entails shredding or breaking down materials into 
+        smaller pieces, which are then cleaned, melted, or reprocessed into new 
+        products or materials. For example, plastic bottles may be melted down 
+        and molded into new containers, while paper and cardboard can be pulped 
+        and used to produce recycled paper products. By transforming recyclable 
+        materials into new resources, recycling helps to conserve natural 
+        resources, reduce energy consumption, and minimize environmental impacts 
+        associated with the extraction and production of raw materials. 
+        Additionally, incorporating recycled materials into manufacturing processes 
+        reduces the demand for virgin resources and helps to close the loop on the 
+        production cycle, promoting a more sustainable and circular economy.
       </>
     ),
   },

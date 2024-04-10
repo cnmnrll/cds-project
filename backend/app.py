@@ -15,7 +15,7 @@ CORS(app)
 model_path = 'models_h5/resnet50.h5'
 model = load_model(model_path)
 
-class_labels = ['cardboard', 'glass', 'paper', 'metal',  'plastic', 'trash']
+class_labels = ['Cardboard', 'Glass', 'Paper', 'Metal',  'Plastic', 'Trash']
 
 @app.route('/classify', methods=['POST'])
 def classify():
