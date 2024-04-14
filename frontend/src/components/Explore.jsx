@@ -25,16 +25,16 @@ export default function Explore(props) {
           <img
             src={selectedWaste?.image}
             alt="waste"
-            className=" float-right w-96 h-auto rounded-lg ml-7 mb-7 mt-14"
+            className="float-right w-96 h-auto rounded-lg ml-7 mb-7 mt-14"
           />
           <p className="text-base text-justify">
-            <span className="font-medium text-lg">About</span>
+            <span className="font-semibold text-lg">About</span>
             <br />
             <br />
             {selectedWaste?.about}
             <br />
             <br />
-            <span className="font-medium text-lg">How to recycle?</span>
+            <span className="font-semibold text-lg">How to recycle?</span>
             <br />
             <br />
             {selectedWaste?.recycle}

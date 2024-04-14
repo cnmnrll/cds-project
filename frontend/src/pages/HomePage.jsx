@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import bloobin2 from "../assets/images/bloobin2.png";
 import Classify from "../components/Classify";
 import Explore from "../components/Explore";
 import Landing from "../components/Landing";
@@ -20,9 +19,6 @@ export default function HomePage() {
 
   return (
     <div className="w-full h-screen flex flex-row justify-center items-center">
-      <div className="w-14 h-full flex flex-col justify-start items-center bg-gradient-to-b from-[#0C9AF3] to-[#002459] pt-5">
-        <img src={bloobin2} alt="bg" className="w-8 h-auto" />
-      </div>
       <div className="w-full h-full relative">
         <div className="w-full h-full relative">
           <img src={bg} alt="bg" className="w-full h-full" />

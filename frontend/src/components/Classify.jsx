@@ -57,6 +57,11 @@ export default function Classify(props) {
     return idx;
   };
 
+  const clearStates = () => {
+    setPrediction(null);
+    setUploadedPhoto(null);
+  };
+
   return (
     <motion.div
       className="z-20 absolute top-0 left-0 w-full h-full grid grid-cols-2 px-24 overflow-y-scroll"
@@ -66,7 +71,10 @@ export default function Classify(props) {
       <div className="w-full h-full flex flex-col justify-center items-start py-28 space-y-5">
         <button
           className="pressable flex flex-row justify-start items-center space-x-4"
-          onClick={() => onBack && onBack()}
+          onClick={() => {
+            clearStates();
+            onBack && onBack();
+          }}
         >
           <Arrow className="w-2 h-auto rotate-180 text-white" />
           <p className="text-white text-lg">Back</p>
@@ -134,10 +142,11 @@ export default function Classify(props) {
                 </div>
                 <button
                   className="pressable flex flex-row justify-center items-center space-x-3"
-                  onClick={() =>
+                  onClick={() => {
+                    clearStates();
                     onSelectWaste &&
-                    onSelectWaste(wastes[getPredictedWasteIndex(prediction)])
-                  }
+                      onSelectWaste(wastes[getPredictedWasteIndex(prediction)]);
+                  }}
                 >
                   <p className="text-zinc-600">Learn more</p>
                   <Arrow className="w-[6px] h-auto text-zinc-600" />
