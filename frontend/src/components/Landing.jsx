@@ -26,9 +26,14 @@ export default function Landing(props) {
             </p>
           </div>
           <p className="text-white text-xs">
-            Every day, waste suffocates ecosystems, pollutes water, and destroys
-            habitats. Annually, mountains of garbage overwhelm landfills,
-            poisoning our planet.
+            Every day, waste suffocates ecosystems, pollutes waterways, and devastates 
+            habitats, posing a dire threat to biodiversity and ecological balance. 
+            Annually, mountains of garbage overwhelm landfills, leaching harmful toxins 
+            into the soil and water.<br/> <br/>
+            Our web application offers a powerful solution to address the pressing issue 
+            of waste management and sustainability. With intuitive interfaces and harnessing 
+            machine learning technology, our platform empowers users to make informed decisions 
+            about waste categories and recycling methods.
           </p>
         </div>
         <button
