@@ -4,6 +4,7 @@ import { PropTypes } from "prop-types";
 import { wastes } from "../static/enums";
 import { useRef, useState } from "react";
 import PictureStack from "../assets/svgs/PictureStack";
+import border from "../assets/images/border.png";
 import Loader from "../assets/svgs/Loader";
 import Arrow from "../assets/svgs/Arrow";
 import Cross from "../assets/svgs/Cross";
@@ -117,9 +118,10 @@ export default function Classify(props) {
             </div>
           ) : (
             <button
-              className="w-full h-72 flex flex-col justify-center items-center space-y-4 bg-blue-100 rounded-lg border border-blue-400 border-dotted"
+              className="w-full relative h-72 flex flex-col justify-center items-center space-y-4 bg-blue-100 rounded-lg"
               onClick={() => uploadRef.current.click()}
             >
+              <img src={border} alt="border" className="absolute h-72 w-auto" />
               <PictureStack className="w-10 h-auto" />
               <p className="font-medium">Upload Photo</p>
             </button>
