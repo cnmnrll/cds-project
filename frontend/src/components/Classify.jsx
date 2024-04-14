@@ -117,14 +117,18 @@ export default function Classify(props) {
               )}
             </div>
           ) : (
-            <button
-              className="w-full relative h-72 flex flex-col justify-center items-center space-y-4 bg-blue-100 rounded-lg"
-              onClick={() => uploadRef.current.click()}
-            >
-              <img src={border} alt="border" className="absolute h-72 w-auto" />
-              <PictureStack className="w-10 h-auto" />
-              <p className="font-medium">Upload Photo</p>
-            </button>
+            <div className="w-full flex justify-center items-center">
+              <button
+                className="w-fit relative"
+                onClick={() => uploadRef.current.click()}
+              >
+                <img src={border} alt="border" className="h-72 w-auto" />
+                <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center space-y-4 bg-blue-200/50 rounded-lg">
+                  <PictureStack className="w-10 h-auto" />
+                  <p className="font-medium">Upload Photo</p>
+                </div>
+              </button>
+            </div>
           )}
           {uploadedPhoto &&
             (isLoading ? (
